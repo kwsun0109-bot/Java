@@ -1,0 +1,686 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "ex01.Hello",
+            "projectName": "FirstJava"
+        },
+        {
+            "type": "java",
+            "name": "VariableEx01",
+            "request": "launch",
+            "mainClass": "ex02.VariableEx01",
+            "projectName": "FirstJava"
+        },
+        {
+            "type": "java",
+            "name": "VariableEx02",
+            "request": "launch",
+            "mainClass": "ex03.VariableEx02",
+            "projectName": "FirstJava"
+        },
+        {
+            "type": "java",
+            "name": "VariableEx03",
+            "request": "launch",
+            "mainClass": "ex04.VariableEx03",
+            "projectName": "FirstJava"
+        },
+        {
+            "type": "java",
+            "name": "SampleEx",
+            "request": "launch",
+            "mainClass": "ex01.SampleEx",
+            "projectName": "Hello"
+        },
+        {
+            "type": "java",
+            "name": "IfEx01",
+            "request": "launch",
+            "mainClass": "ex01.IfEx01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx02",
+            "request": "launch",
+            "mainClass": "ex01.IfEx02",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx02_1",
+            "request": "launch",
+            "mainClass": "ex01.IfEx02_1",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx03",
+            "request": "launch",
+            "mainClass": "ex01.IfEx03",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx03_1",
+            "request": "launch",
+            "mainClass": "ex01.IfEx03_1",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx04",
+            "request": "launch",
+            "mainClass": "ex01.IfEx04",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx05",
+            "request": "launch",
+            "mainClass": "ex01.IfEx05",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx06",
+            "request": "launch",
+            "mainClass": "ex01.IfEx06",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx07",
+            "request": "launch",
+            "mainClass": "ex01.IfEx07",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "IfEx08",
+            "request": "launch",
+            "mainClass": "ex01.IfEx08",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "SwitchEx01",
+            "request": "launch",
+            "mainClass": "ex01.SwitchEx01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "SwitchEx02",
+            "request": "launch",
+            "mainClass": "ex01.SwitchEx02",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "SwitchEx03",
+            "request": "launch",
+            "mainClass": "ex01.SwitchEx03",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "BreakExam01",
+            "request": "launch",
+            "mainClass": "ex02.BreakExam01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "BreakExam02",
+            "request": "launch",
+            "mainClass": "ex02.BreakExam02",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "ContinueEx01",
+            "request": "launch",
+            "mainClass": "ex02.ContinueEx01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "DoWhileEx01",
+            "request": "launch",
+            "mainClass": "ex02.DoWhileEx01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "ForEx01",
+            "request": "launch",
+            "mainClass": "ex02.ForEx01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "ForEx02",
+            "request": "launch",
+            "mainClass": "ex02.ForEx02",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "ForEx03",
+            "request": "launch",
+            "mainClass": "ex02.ForEx03",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "ForEx04",
+            "request": "launch",
+            "mainClass": "ex02.ForEx04",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "WhileEx01",
+            "request": "launch",
+            "mainClass": "ex02.WhileEx01",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "WhileEx02",
+            "request": "launch",
+            "mainClass": "ex02.WhileEx02",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "WhileEx04",
+            "request": "launch",
+            "mainClass": "ex02.WhileEx04",
+            "projectName": "Java20260513-제어문"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEx01",
+            "request": "launch",
+            "mainClass": "ex01.ArrayEx01",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEx02",
+            "request": "launch",
+            "mainClass": "ex01.ArrayEx02",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEx03",
+            "request": "launch",
+            "mainClass": "ex01.ArrayEx03",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEx03_1",
+            "request": "launch",
+            "mainClass": "ex01.ArrayEx03_1",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEx04",
+            "request": "launch",
+            "mainClass": "ex01.ArrayEx04",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "ArrayEx05",
+            "request": "launch",
+            "mainClass": "ex01.ArrayEx05",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "Sample",
+            "request": "launch",
+            "mainClass": "ex01.Sample",
+            "projectName": "Java20260514-배열"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx01",
+            "request": "launch",
+            "mainClass": "ex01.ClassEx01",
+            "projectName": "Java20260515-클래스"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx02",
+            "request": "launch",
+            "mainClass": "ex01.ClassEx02",
+            "projectName": "Java20260515-클래스"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx03",
+            "request": "launch",
+            "mainClass": "ex01.ClassEx03",
+            "projectName": "Java20260515-클래스"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx04",
+            "request": "launch",
+            "mainClass": "ex02.ClassEx04",
+            "projectName": "Java20260515-클래스"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx05",
+            "request": "launch",
+            "mainClass": "ex03.ClassEx05",
+            "projectName": "Java20260515-클래스"
+        },
+        {
+            "type": "java",
+            "name": "ClassEx06",
+            "request": "launch",
+            "mainClass": "ex04.ClassEx06",
+            "projectName": "Java20260515-클래스"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx01",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx01",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx02",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx02",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx03",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx03",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx04",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx04",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx05",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx05",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx06",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx06",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx07",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx07",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "FunctionEx08",
+            "request": "launch",
+            "mainClass": "ex01.FunctionEx08",
+            "projectName": "Java20260515-함수"
+        },
+        {
+            "type": "java",
+            "name": "ProceduralEx",
+            "request": "launch",
+            "mainClass": "ex01.ProceduralEx",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "AccountMain",
+            "request": "launch",
+            "mainClass": "ex02.AccountMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "AccountMain(1)",
+            "request": "launch",
+            "mainClass": "ex03.AccountMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "AccountMain(2)",
+            "request": "launch",
+            "mainClass": "ex04.AccountMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "AccountMain(3)",
+            "request": "launch",
+            "mainClass": "ex05.AccountMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "AccountMain(4)",
+            "request": "launch",
+            "mainClass": "ex06.AccountMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "AccountMain(5)",
+            "request": "launch",
+            "mainClass": "ex07.AccountMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "PersomMain",
+            "request": "launch",
+            "mainClass": "ex07.PersomMain",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "Sample(1)",
+            "request": "launch",
+            "mainClass": "ex07.Sample",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "ex08.Main",
+            "projectName": "Java20260518-클래스"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "ex01.Main",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "ex02.Main",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "SingletonExam",
+            "request": "launch",
+            "mainClass": "ex03.SingletonExam",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "ex04.Main",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "ex05.Main",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "ex06.Main",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "BookTest",
+            "request": "launch",
+            "mainClass": "ex07.BookTest",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "ProductTest",
+            "request": "launch",
+            "mainClass": "ex08.ProductTest",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "StudentTest",
+            "request": "launch",
+            "mainClass": "ex09.StudentTest",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "FriendTest",
+            "request": "launch",
+            "mainClass": "ex10.FriendTest",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "FriendTest(1)",
+            "request": "launch",
+            "mainClass": "ex11.FriendTest",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "ex12.Main",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "MobileTest",
+            "request": "launch",
+            "mainClass": "ex13.MobileTest",
+            "projectName": "Java20260519-상속"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "ex01.Main",
+            "projectName": "Java20260521-인터페이스"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "ex02.Main",
+            "projectName": "Java20260521-인터페이스"
+        },
+        {
+            "type": "java",
+            "name": "Company",
+            "request": "launch",
+            "mainClass": "ex03.Company",
+            "projectName": "Java20260521-인터페이스"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "ex04.Main",
+            "projectName": "Java20260521-인터페이스"
+        },
+        {
+            "type": "java",
+            "name": "ListPerformanceTest",
+            "request": "launch",
+            "mainClass": "ex.ListPerformanceTest",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "LottoProgram",
+            "request": "launch",
+            "mainClass": "ex.LottoProgram",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "LottoSetProgram",
+            "request": "launch",
+            "mainClass": "ex.LottoSetProgram",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "Sample(2)",
+            "request": "launch",
+            "mainClass": "ex.Sample",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "Sample00",
+            "request": "launch",
+            "mainClass": "ex.Sample00",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "Sample02",
+            "request": "launch",
+            "mainClass": "ex.Sample02",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "Sample03",
+            "request": "launch",
+            "mainClass": "ex.Sample03",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "Sample04",
+            "request": "launch",
+            "mainClass": "ex.Sample04",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "TestEx",
+            "request": "launch",
+            "mainClass": "ex.TestEx",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "TestEx02",
+            "request": "launch",
+            "mainClass": "ex.TestEx02",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "TestEx03",
+            "request": "launch",
+            "mainClass": "ex.TestEx03",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "TestEx04",
+            "request": "launch",
+            "mainClass": "ex.TestEx04",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "TestEx05",
+            "request": "launch",
+            "mainClass": "ex.TestEx05",
+            "projectName": "Java20260522-예외처리"
+        },
+        {
+            "type": "java",
+            "name": "BoxMain",
+            "request": "launch",
+            "mainClass": "ex01.BoxMain",
+            "projectName": "Java20260522-제네릭"
+        },
+        {
+            "type": "java",
+            "name": "BoxMain(1)",
+            "request": "launch",
+            "mainClass": "ex02.BoxMain",
+            "projectName": "Java20260522-제네릭"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListEx01",
+            "request": "launch",
+            "mainClass": "ex03.ArrayListEx01",
+            "projectName": "Java20260522-제네릭"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListEx01",
+            "request": "launch",
+            "mainClass": "ex04.LinkedListEx01",
+            "projectName": "Java20260522-제네릭"
+        },
+        {
+            "type": "java",
+            "name": "SetEx01",
+            "request": "launch",
+            "mainClass": "ex05.SetEx01",
+            "projectName": "Java20260522-제네릭"
+        },
+        {
+            "type": "java",
+            "name": "SetEx02",
+            "request": "launch",
+            "mainClass": "ex05.SetEx02",
+            "projectName": "Java20260522-제네릭"
+        }
+    ]
+}
