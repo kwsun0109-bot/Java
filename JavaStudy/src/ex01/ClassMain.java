@@ -12,16 +12,13 @@ public class ClassMain {
         System.out.println(a+b);
 
         Time [] t = new Time[3];
-        System.out.println(1);
         t[0] = new Time(13, 20, 42);
-        System.out.println(2);
         t[1] = new Time(20, 42, 13);
-        System.out.println(3);
         t[2] = new Time(42, 13, 20);
 
-        for (int i=0; i<t.length; i++){
+        for (int i=0; i<t.length; i++) {
             System.out.println(4);
-            System.out.print(t[i]);
+            System.out.print(t[i]);  // <-- 여기서 toString()를 호출안해도 자동으로 호출한다
         }
     }
 }
@@ -44,7 +41,6 @@ class Time {
 
     @Override
     public String toString(){
-        System.out.println(5);
         return "[" + h + "시간" + ":" + m + "분" + ":" + s + "초]";
     }
 }
