@@ -21,6 +21,7 @@ public class Student {
 	}
 	
 	void showStudentCount() {
+
 		System.out.println("전체 학생 수 : " + studentCount);
 	}
 	

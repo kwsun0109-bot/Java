@@ -18,7 +18,7 @@ public class FriendTest {
 		arr[4] = new Friend("야옹", "444", "test3@test.com");
 		
 		for(int i=0; i<arr.length; ++i) {
-			//System.out.println(arr[i].toString());
+//			System.out.println(arr[i].toString());
 			System.out.println(arr[i]);
 		}
 		

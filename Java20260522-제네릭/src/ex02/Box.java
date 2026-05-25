@@ -2,13 +2,15 @@ package ex02;
 
 class Box<T>{
 	
-	T item;
+	T item;		// 여기서  T 는 임의이 타입임
 	
 	void setItem(T item) {
+
 		this.item = item;
 	}
 	
 	T getItem() {
+
 		return item;
 	}
 }
