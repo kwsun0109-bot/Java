@@ -1,0 +1,21 @@
+package ex06;
+// 참조형 반환타입
+class PrimitiveParamEx {
+    public static void main(String[] args) {
+
+        Data3 d = new Data3();
+        d.x = 10;
+
+        Data3 d2 = copy(d);
+        System.out.println("d.x = " + d.x);
+        System.out.println("d2.x = " + d2.x);
+    }
+    static Data3 copy(Data3 d) { // <-- d 는 change 메서드의 지역변수 명
+
+        Data3 tmp = new Data3();
+        tmp.x = d.x;
+        return tmp;
+    }
+}
+
+class Data3 { int x; }
