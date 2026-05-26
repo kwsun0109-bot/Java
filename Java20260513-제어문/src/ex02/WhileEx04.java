@@ -3,20 +3,22 @@ package ex02;
 public class WhileEx04 {
 
 	public static void main(String[] args) {
-		
-		// 2~5단 구구단 출력
-		// 출력예시 2 X 1 = 2
-		int i = 2; //단 2~5
-		int j = 1; //1~9
-				
-		while(i<=5) {						
-			while(j<=9) {
-				System.out.println(i + "X" + j + " = " + i*j);
-				j++;
-			}
-			i++;
-			j=1;
+	
+		int number = 1;
+		do {
+			System.out.println("dowhile " + number);
+			number++;
 		}
+		while (number>3);
+		System.out.println("시스템 종료");
+		
+		
+		int number1 = 1;
+		while (number1>3) {
+			System.out.println("while " + number1);
+			number1++;
+		}
+		System.out.println("시스템 종료1");
 	}
 
 }

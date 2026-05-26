@@ -1,61 +1,44 @@
 package ex03;
 
+//클랙스 명은 카멜표기법으로 기입
+
+/*
+  여러줄 주석(코멘트 or 설명문)
+  클래스 명은 카멜 표기법 => 자바는 기본이 카멜표기법임.
+  카멜표기법 : 
+  - 영문자 첫글자는 대문자
+  - 영문자 두 단어가 조합되있으면 첫글자, 두번째 단어 대문자
+  예) saleorder --> Saleorder
+  스네이크 표기법 : 데이터베이스(오라클, mysql, maridb)
+  예) Sale_order
+ */
 public class VariableEx02 {
 
-	public static void main(String[] args) {		
-		
-		//산술연산 : + , - , *, /, %
-		//관계연산자: >, <, >=, <=
-		// ==, !=
-		// 정수 대 정수 -> 정수, 실수 대 정수 -> 실수, 실수 대 실수 -> 실수
-		
-		System.out.println(5 / 2.); //2.5
-		System.out.println("5 % 2 나머지 : "+ 5 % 2);  //나머지 연산자, 1
-		
-		System.out.println(5<2);
-		
-		// a = b   ==> b(우항)이 가지고있는 값을 a(좌항) 대입
-		System.out.println(5 == 5);  // == 같다
-		
-		//줄복사 : ctrl+alt+방향키아래
-		System.out.println(5 != 2);  // != 같지 않다
-		
-		//정수형변수 a를 생성했고, 이 공간에는 +- 21억값을 입력하겠다.
-		int a = 5;
-		
-		a = a + 1;  //6
-		
-		a +=  1;   //7
-		 
-		a++;  //8  a = a + 1 , 후위연산자 
-		
-		++a;  //9  a = a + 1 , 선위연산자
-		
-		System.out.println(a);
-		
-		System.out.println("선 후 연산자");
-		int b = 10;
-		int c ;
-		int d;
+	public static void main(String[] args) {
 		
 		/*
-		 * c = b;
-		 * b = b + 1
+		 *  변수(값을 저장하는곳) -> 정수형, 실수형, 문자형
+		 *  정수 -> integer(4), long(8)
+		 *  실수 -> float(4), double(8)
+		 *  문자 -> String
 		 */
-		c = b++;
 		
+		int age;  // int : 자료형, age : 변수명(첫글자소문자&카멜표기법)
 		
-		/*
-		 * b = b+1
-		 * d = b;
-		 */
-		d = ++b;				
+		age = 20;
+		System.out.println("나이 : " + age);
 		
-		System.out.println(b);
-		System.out.println(c);
-		System.out.println(d);			
-		
+		double kor;
+		kor = 97.3;
+		System.out.println("국어점수 : " + kor);
 
+		double eng = 78.4;
+		System.out.println("영어점수 : " + eng);
+		
+		String name;
+		name = "선경원";
+		System.out.println("이름 : " + name);
+		
 	}
 
 }

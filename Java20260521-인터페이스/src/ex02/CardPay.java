@@ -7,4 +7,10 @@ public class CardPay implements Payment {
 		System.out.println("카드로 " + money + "원 결제");	
 	}
 
+	@Override
+	public void coupon() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

@@ -1,25 +1,20 @@
 package ex02;
-
+/*
+ * 구구단
+ */
 
 public class ForEx04 {
 
 	public static void main(String[] args) {
-		/*
-		 * 구구단 2단 ~ 5단 출력
-		 */
 		
-		//2 x 1 = 2
-		//3 x 1 = 3
-		for(int j=2; j<=9; j++) {
-			
-			for(int i=1; i<=9; i++) {
-				System.out.println(j + " X " + i + " = " +  j*i);
-				if(j == i)	break;
+		for (int i=1; i<=9; i++) {
+			for(int j=1; j<=9; j++) {
+				System.out.println(i + " x " + j + " = " + i*j + "\t");
+				// System.out.printf("%d * %d = %d\t", j , i, j * i);
 			}
-			
+			System.out.println();
 		}
 		
-		System.out.println("프로그램 종료!");
 	}
 
 }

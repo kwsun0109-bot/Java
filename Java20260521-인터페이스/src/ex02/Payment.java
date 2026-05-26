@@ -4,6 +4,8 @@ package ex02;
 public interface Payment {
 	void pay(int money);
 	
+	
+	
 	// 할인기능 추가(프로그램 차후에 추가로 작성)
 	// 구현을 해도되고 않해도됨
 	default void coupon() {

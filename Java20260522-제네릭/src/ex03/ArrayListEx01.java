@@ -17,18 +17,18 @@ public class ArrayListEx01 {
 		
 		for(int i=0; i<list.size(); i++)
 			System.out.println(list.get(i));
-		System.out.println("------------------");
+		System.out.println("list ------------------");
 		
 		for(int num : list)
 			System.out.println(num);
-		System.out.println("------------------");
-		list.remove(1);
+		System.out.println("num ------------------");
+		list.remove(1);  // list[1] : 값 20을 삭제
 		
 		for(int num : list)
 			System.out.println(num);
 		
-		list.add(1, 50);
-		System.out.println("------------------");
+		list.add(1, 50); // ;list[1] : 값 50을 추가
+		System.out.println("1, 50------------------");
 		for(int num : list)
 			System.out.println(num);
 	}
