@@ -17,7 +17,11 @@ public class Main {
 
 		ButtonClick bc = new ButtonClass();  // <-- 구현체만 올수 있다
 		bc.click();
+		System.out.println(bc);
 
+		ButtonClass bc1 = bc; // new ButtonClass();  // <-- 구현체만 올수 있다
+		bc1.click();
+		System.out.println(bc1);
 	}
 
 }
