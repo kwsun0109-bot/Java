@@ -9,6 +9,16 @@ public class IndexOfContainEx {
 
         String subString = subject.substring(location);
         System.out.println(subString);
-        // 페이지 166~~
+
+        try {
+            int [] intArray = new int[5];
+            intArray[0] = 10;
+
+            String str = "여행";   
+            System.out.println("총 문자 수 : " + str.length());
+        } catch (NullPointerException e){
+            System.out.println(e);
+        }
+
     }
 }
