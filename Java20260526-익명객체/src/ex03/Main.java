@@ -15,11 +15,11 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		ButtonClick bc = new ButtonClass();  // <-- 구현체만 올수 있다
+		ButtonClass bc = new ButtonClass();  // <-- 구현체만 올수 있다
 		bc.click();
 		System.out.println(bc);
 
-		ButtonClass bc1 = bc; // new ButtonClass();  // <-- 구현체만 올수 있다
+		ButtonClass bc1 = (ButtonClass)bc; //new ButtonClass();  // <-- 구현체만 올수 있다
 		bc1.click();
 		System.out.println(bc1);
 	}

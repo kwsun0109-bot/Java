@@ -11,5 +11,7 @@ public class SplitExam01 {
         for (int i=0; i<token1.length; i++) {
             System.out.println(token2[i] + token1[i]);
         }
+
+        
     }
 }
